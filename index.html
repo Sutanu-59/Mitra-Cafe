@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" -->
+  <!-- integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="./logo.png" alt="Avatar Logo" style="width:150px;" class="rounded-pill">
+      </a>
+      <a class="navbar-brand" href="#" style="font-weight: bolder; text-shadow: 5px 5px 5px red; font-size: 30px;">মিত্র
+        ক্যাফে</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="nav nav-pills" role="tablist" style="font-size: 20px; padding-left: 100px;">
+
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="pill" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="pill" href="#">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Gallery</a>
+            <ul class="dropdown-menu" style="background-color:darkgray;">
+              <li><a class="dropdown-item" href="#">Photos</a></li>
+              <li><a class="dropdown-item" href="#">Our Menu</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="pill" href="#">Contact Us</a>
+          </li>
+
+        </ul>
+      </div> -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item" style="padding-left: 200px;">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about us.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Gallery</a>
+            <ul class="dropdown-menu text-bg-secondary" style="font-size: 20px;">
+              <li><a class="dropdown-item" href="pictures.html">Pictures</a></li>
+              <li><a class="dropdown-item" data-bs-toggle="modal" href="#" data-bs-target="#myModal">Our Menu</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact us</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Our Menu</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          Do you want to view or download our menu ?
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <a href="menu mitra cafe.pdf"><button type="button" class="btn btn-success"
+              data-bs-dismiss="modal">Ok</button></a>
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- banner -->
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="ban2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="ban3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="ban dishes.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+  <h2
+    style="text-align: center; font-size: 50px; text-decoration: 5px underline double green; font-family:Georgia, 'Times New Roman', Times, serif;">
+    Remembering The Bygone</h2>
+  <img src="underline.png" width="120px" height="100px" style="margin-left: 45%;" alt="">
+  <div class="parap"
+    style="text-align: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; width:80%; margin:auto; font-size: 20px;">
+    It never really matters how you slice and dice it, food and love are inextricably tied. And with this love Shri
+    Sushil Roy founded MITRA CAFÉ to nudge the taste buds of the people. And guess what! IT WORKED! Taking the customers
+    as Friends Shri Roy named this place MITRA CAFÉ and since 1910 it is forming that bond of friendship between people
+    and food.</div><br>
+  <div class="parap"
+    style="text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; width:80%; margin:auto; font-size: 20px;">
+    He showed us that grandeur does not need to speak all the time, a dish made with love, care and warmth speaks all
+    and looks so much better than anything else.</div>
+  <br><br>
+  <button type="button" class="btn btn-outline-danger"
+    style="font-size: 30px;margin-left:45%; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-style: italic;">Our
+    Story</button><br><br>
+  <button type="button" class="btn btn-warning"
+    style="font-size: 30px; margin-left:32%; font-family:cursive; font-style: italic; color: crimson;">Download Our 2022
+    Calender</button>
+  <br><br>
+  <div class="pic1"></div>
+  <br><br><br><br>
+  <div class="pic1" id="pic2"></div>
+  <br><br><br><br>
+  <h2
+    style="font-size: 40px; text-align: center; font-weight: bolder; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    You Will Know Joie De Vivre With Mitra Cafe</h2>
+  <img src="underline.png" width="120px" height="100px" style="margin-left: 45%;" alt="">
+  <br><br>
+  <div id="para"
+    style="text-align: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; width:80%; margin:auto; font-size: 25px;">
+    Having diversity in cuisine, started from the starters, main courses and desserts Mitra Café stands tall in various
+    places all over Kolkata. We have outlets outside Kolkata as well. So if you ever feel the craving for Kolkata food,
+    stop thinking and follow your heart to THE MITRA CAFE.</div><br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h5 class="animate-charcter">10% Discount For Family Parties</h5>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <div class="tasty">
+    <div class="tastyrap">
+      <h3
+        style="font-size:50px;font-family:cursive;font-style: italic;text-align: center; font-weight: bolder; color: aliceblue; text-shadow: 2px 2px 5px yellow,2px 2px 5px orange,2px 2px 5px red;">
+        ভাল খাও এবং ভাল খাওয়াও</h3>
+      <br>
+      <div class="ttext">Over 250 Delicious & Tasty Recipes</div>
+    </div>
+  </div>
+  <br><br>
+  <h2
+    style="font-size: 40px; text-align: center; font-weight: bolder; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    Stunning Things</h2>
+  <img src="underline.png" width="120px" height="100px" style="margin-left: 45%;" alt="">
+
+  <div class="mid">
+    <!-- row1 -->
+    <div class="midrap">
+      <div class="box">
+        <img src="bpic1.png" height="300" width="350" alt="">
+        <h4>Finest Gourmet To Gobble Up</h4><br>
+        <div class="txt">We are aware that a mouthful of delicious food can make you jump in glee. That is why our sole
+          concern has always been pivoted around preparing the exceptional quality foods that will make you think “I
+          wonder what they have put into this one!”
+
+        </div>
+      </div>
+      <div class="box" style="--c: #945f31;">
+        <img src="bpic2.png" height="300" width="350" alt="">
+        <h4>Eccentric Recipes</h4><br>
+        <div class="txt">
+          Eccentric Recipes
+          The breadcrumb coated deep fried crispy Calcuttan Fish Kabiraji is a thing you can’t take your eyes off and
+          cannot help but drooling over it. Our special recipes will help you to know how it feels when you take a bite
+          of our food and smile with pleasure!
+        </div>
+      </div>
+    </div>
+    <!-- row2 -->
+    <div class="midrap">
+      <div class="box" style="--c: #945f31;">
+        <img src="bpic3.png" height="300" width="350" alt="">
+        <h4>Affectionate Behaviour</h4><br>
+        <div class="txt">Being a mediocre is the last thing we dream of because we want to be rich by spreading love
+          through serving food. You will feel the home like ambience once you step inside our café. As nothing feels
+          better than home sweet home!
+
+        </div>
+      </div>
+      <div class="box">
+        <img src="bpic4.png" height="300" width="350" alt="">
+        <h4>Finest Gourmet To Gobble Up</h4><br>
+        <div class="txt">Experience counts more than anything. Our staffs are well experienced and will look after all
+          your queries with patience. We will give you no scope to get disappointed with our service.
+
+        </div>
+      </div>
+    </div>
+    <!-- row3 -->
+    <div class="midrap">
+      <div class="box">
+        <img src="bpic5.png" height="300" width="350" alt="">
+        <h4>Pristine Ingredients</h4><br>
+        <div class="txt">Our taste buds have the power to control our emotions. And we, the people from Mitra Cafe
+          always try to make our customers happy by making them acquainted with our savoury dishes which are made with
+          first-rate ingredients.
+
+        </div>
+      </div>
+      <div class="box" style="--c: #945f31;">
+        <img src="bpic6.png" height="300" width="350" alt="">
+        <h4>Hygiene Comes First</h4><br>
+        <div class="txt">We know that cleanliness and hygiene are as important as ever right now, that is why we take
+          care of all the measures to maintain the hygiene in the kitchen as well in the cabin place. So don’t let us
+          catch you eating the stress, select from our menu!
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br>
+
+  <!-- Footer -->
+  <!--Important link source from https://bootsnipp.com/snippets/ooa9M-->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!------ Include the above in your HEAD tag ---------->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <footer id="dk-footer" class="dk-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-4">
+          <div class="dk-footer-box-info" style="border-radius: 70px;">
+            <a href="index.html" class="footer-logo">
+              <img src="logo2.jfif" style="border-radius: 50%;" alt="footer_logo" class="img-fluid">
+            </a>
+            <p class="footer-info-text" style="font-size: 20px; word-spacing: 5px;">
+              পরিবার, বন্ধু এবং প্রিয় মানুষটির সাথে আনন্দময় সময় কাটানোর প্রিয় ঠিকানা
+            </p>
+            <div class="footer-social-link">
+              <h3>Follow us</h3>
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/mitracafe.kolkata">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/MitraCafeOnlin1">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/mitracafe.kolkata">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- End Social link -->
+          </div>
+          <!-- End Footer info -->
+          <div class="footer-awarad">
+            <img src="images/icon/best.png" alt="">
+            <p>Best Design Company 2019</p>
+          </div>
+        </div>
+        <!-- End Col -->
+        <div class="col-md-12 col-lg-8">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="contact-us">
+                <div class="contact-icon">
+                  <i class="fa fa-map-o" aria-hidden="true"></i>
+                </div>
+                <!-- End contact Icon -->
+                <div class="contact-info">
+                  <h3>32A, Abinash Kabiraj Street,</h3>
+                  <p>Kolkata: 700 005, West Bengal, India</p>
+                </div>
+                <!-- End Contact Info -->
+              </div>
+              <!-- End Contact Us -->
+            </div>
+            <!-- End Col -->
+            <div class="col-md-6">
+              <div class="contact-us contact-us-last">
+                <div class="contact-icon">
+                  <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                </div>
+                <!-- End contact Icon -->
+                <div class="contact-info">
+                  <h3>8420161111 / 9903236111</h3>
+                  <p>Give us a call or Whatsapp</p>
+                </div>
+                <!-- End Contact Info -->
+              </div>
+              <!-- End Contact Us -->
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Contact Row -->
+          <div class="row">
+            <div class="col-md-12 col-lg-6">
+              <div class="footer-widget footer-left-widget">
+                <div class="section-heading">
+                  <h3>Useful Links</h3>
+                  <span class="animate-border border-black"></span>
+                </div>
+                <ul>
+                  <li>
+                    <a href="about us.html">About us</a>
+                  </li>
+                  <li>
+                    <a href="pictures.html">Photos</a>
+                  </li>
+                  <li>
+                    <a data-bs-toggle="modal" href="#" data-bs-target="#myModal">Our Menu</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">Contact Us</a>
+                  </li>
+              </div>
+              <!-- End Footer Widget -->
+            </div>
+            <!-- End col -->
+            <div class="col-md-12 col-lg-6">
+              <div class="footer-widget">
+                <div class="section-heading">
+                  <h3>Subscribe</h3>
+                  <span class="animate-border border-black"></span>
+                </div>
+                <p><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
+                  Share Your Email Address so that we can reach you</p>
+                <form action="#">
+                  <div class="form-row">
+                    <div class="col dk-footer-form">
+                      <input type="email" class="form-control" placeholder="Email Address">
+                      <button type="submit">
+                        <i class="fa fa-send"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+                <!-- End form -->
+              </div>
+              <!-- End footer widget -->
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Row -->
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Widget Row -->
+    </div>
+    <!-- End Contact Container -->
+
+
+    <div class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <span>Copyright © 2019, All Right Reserved Seobin</span><br>
+            <div class="devtext" style="display: grid; grid-template-columns: auto auto;">
+              <h5 style="color: antiquewhite;font-size: 25px;">Developed By</h5>
+              <a href="">
+                <h2 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Sutanu Mukherjee</h2>
+              </a>
+            </div>
+          </div>
+          <!-- End Col -->
+          <div class="col-md-6">
+            <div class="copyright-menu">
+              <ul>
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="#">Terms</a>
+                </li>
+                <li>
+                  <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End col -->
+        </div>
+        <!-- End Row -->
+      </div>
+      <!-- End Copyright Container -->
+    </div>
+    <!-- End Copyright -->
+    <!-- Back to top -->
+    <div id="back-to-top" class="back-to-top">
+      <button class="btn btn-dark" title="Back to Top" style="display: block;">
+        <i class="fa fa-angle-up"></i>
+      </button>
+    </div>
+    <!-- End Back to top -->
+  </footer>
+</body>
+
+</html>

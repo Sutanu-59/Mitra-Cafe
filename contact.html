@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="contact.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" -->
+  <!-- integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body style="background-color: black;">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="./logo.png" alt="Avatar Logo" style="width:150px;" class="rounded-pill">
+      </a>
+      <a class="navbar-brand" href="#" style="font-weight: bolder; text-shadow: 5px 5px 5px red; font-size: 30px;">মিত্র
+        ক্যাফে</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="nav nav-pills" role="tablist" style="font-size: 20px; padding-left: 100px;">
+
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="pill" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="pill" href="#">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Gallery</a>
+            <ul class="dropdown-menu" style="background-color:darkgray;">
+              <li><a class="dropdown-item" href="#">Photos</a></li>
+              <li><a class="dropdown-item" href="#">Our Menu</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="pill" href="#">Contact Us</a>
+          </li>
+
+        </ul>
+      </div> -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item" style="padding-left: 200px;">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about us.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Gallery</a>
+            <ul class="dropdown-menu text-bg-secondary" style="font-size: 20px;">
+              <li><a class="dropdown-item" href="pictures.html">Pictures</a></li>
+              <li><a class="dropdown-item" data-bs-toggle="modal" href="#" data-bs-target="#myModal">Our Menu</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact us</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Our Menu</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          Do you want to view or download our menu ?
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <a href="menu mitra cafe.pdf"><button type="button" class="btn btn-success"
+              data-bs-dismiss="modal">Ok</button></a>
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="ban">
+    <div class="banrap">
+      <h1>Contact Us</h1>
+    </div>
+  </div>
+  <br>
+  <div class="mid">
+    <div class="container">
+      <div class="row">
+        <h1>Contact Us For Any Queries</h1>
+      </div>
+      <div class="row">
+        <h4 style="text-align:center">We love to hear from you!</h4>
+      </div>
+      <div class="boxform">
+        <div class="row input-container">
+          <div class="col-xs-12">
+            <div class="styled-input wide">
+              <input type="text" required />
+              <label>Name</label>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="styled-input">
+              <input type="text" required />
+              <label>Email</label>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="styled-input" style="float:right;">
+              <input type="text" required />
+              <label>Phone Number</label>
+            </div>
+          </div>
+          <div class="col-xs-12">
+            <div class="styled-input wide">
+              <textarea required></textarea>
+              <label>Message</label>
+            </div>
+          </div>
+          <div class="col-xs-12">
+            <div class="btn-lrg submit-btn">Send Message</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="map">
+    <div class="maprap">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58928.32176453887!2d88.34041902167968!3d22.615724200000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89ff32b41f3b1%3A0x6f92b27e48459ee6!2sMitra%20Cafe!5e0!3m2!1sen!2sin!4v1696179783819!5m2!1sen!2sin"
+        width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58926.707702783526!2d88.3198622216797!3d22.619491099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89dfa7416d245%3A0x8694d3c6085a7cdf!2sMitra%20Cafe!5e0!3m2!1sen!2sin!4v1696179806204!5m2!1sen!2sin"
+        width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58909.41899520855!2d88.3693882216797!3d22.659802300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89f39d7ad97fd%3A0xa8f03a62a02498ee!2sMitra%20Cafe!5e0!3m2!1sen!2sin!4v1696179826147!5m2!1sen!2sin"
+        width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58971.20728089556!2d88.2950746216797!3d22.51541920000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02712b5cdd6a9b%3A0x18ce5fdcd2c5ad71!2sMitra%20Cafe%20Golpark!5e0!3m2!1sen!2sin!4v1696179843373!5m2!1sen!2sin"
+        width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <!-- Footer -->
+  <!--Important link source from https://bootsnipp.com/snippets/ooa9M-->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!------ Include the above in your HEAD tag ---------->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <footer id="dk-footer" class="dk-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-4">
+          <div class="dk-footer-box-info" style="border-radius: 70px;">
+            <a href="index.html" class="footer-logo">
+              <img src="logo2.jfif" style="border-radius: 50%;" alt="footer_logo" class="img-fluid">
+            </a>
+            <p class="footer-info-text" style="font-size: 20px; word-spacing: 5px;">
+              পরিবার, বন্ধু এবং প্রিয় মানুষটির সাথে আনন্দময় সময় কাটানোর প্রিয় ঠিকানা
+            </p>
+            <div class="footer-social-link">
+              <h3>Follow us</h3>
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/mitracafe.kolkata">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/MitraCafeOnlin1">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/mitracafe.kolkata">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- End Social link -->
+          </div>
+          <!-- End Footer info -->
+          <div class="footer-awarad">
+            <img src="images/icon/best.png" alt="">
+            <p>Best Design Company 2019</p>
+          </div>
+        </div>
+        <!-- End Col -->
+        <div class="col-md-12 col-lg-8">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="contact-us">
+                <div class="contact-icon">
+                  <i class="fa fa-map-o" aria-hidden="true"></i>
+                </div>
+                <!-- End contact Icon -->
+                <div class="contact-info">
+                  <h3>32A, Abinash Kabiraj Street,</h3>
+                  <p>Kolkata: 700 005, West Bengal, India</p>
+                </div>
+                <!-- End Contact Info -->
+              </div>
+              <!-- End Contact Us -->
+            </div>
+            <!-- End Col -->
+            <div class="col-md-6">
+              <div class="contact-us contact-us-last">
+                <div class="contact-icon">
+                  <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                </div>
+                <!-- End contact Icon -->
+                <div class="contact-info">
+                  <h3>8420161111 / 9903236111</h3>
+                  <p>Give us a call or Whatsapp</p>
+                </div>
+                <!-- End Contact Info -->
+              </div>
+              <!-- End Contact Us -->
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Contact Row -->
+          <div class="row">
+            <div class="col-md-12 col-lg-6">
+              <div class="footer-widget footer-left-widget">
+                <div class="section-heading">
+                  <h3>Useful Links</h3>
+                  <span class="animate-border border-black"></span>
+                </div>
+                <ul>
+                  <li>
+                    <a href="about us.html">About us</a>
+                  </li>
+                  <li>
+                    <a href="pictures.html">Photos</a>
+                  </li>
+                  <li>
+                    <a data-bs-toggle="modal" href="#" data-bs-target="#myModal">Our Menu</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">Contact Us</a>
+                  </li>
+              </div>
+              <!-- End Footer Widget -->
+            </div>
+            <!-- End col -->
+            <div class="col-md-12 col-lg-6">
+              <div class="footer-widget">
+                <div class="section-heading">
+                  <h3>Subscribe</h3>
+                  <span class="animate-border border-black"></span>
+                </div>
+                <p><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
+                  Share Your Email Address so that we can reach you</p>
+                <form action="#">
+                  <div class="form-row">
+                    <div class="col dk-footer-form">
+                      <input type="email" class="form-control" placeholder="Email Address">
+                      <button type="submit">
+                        <i class="fa fa-send"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+                <!-- End form -->
+              </div>
+              <!-- End footer widget -->
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Row -->
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Widget Row -->
+    </div>
+    <!-- End Contact Container -->
+
+
+    <div class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <span>Copyright © 2019, All Right Reserved Seobin</span><br>
+            <div class="devtext" style="display: grid; grid-template-columns: auto auto;">
+              <h5 style="color: antiquewhite;font-size: 25px;">Developed By</h5>
+              <a href="">
+                <h2 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Sutanu Mukherjee</h2>
+              </a>
+            </div>
+          </div>
+          <!-- End Col -->
+          <div class="col-md-6">
+            <div class="copyright-menu">
+              <ul>
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="#">Terms</a>
+                </li>
+                <li>
+                  <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End col -->
+        </div>
+        <!-- End Row -->
+      </div>
+      <!-- End Copyright Container -->
+    </div>
+    <!-- End Copyright -->
+    <!-- Back to top -->
+    <div id="back-to-top" class="back-to-top">
+      <button class="btn btn-dark" title="Back to Top" style="display: block;">
+        <i class="fa fa-angle-up"></i>
+      </button>
+    </div>
+    <!-- End Back to top -->
+  </footer>
+</body>
+
+</html>
